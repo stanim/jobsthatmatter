@@ -1,6 +1,6 @@
 baseurl = ""
 publishDir = "docs"
-title = "Universal"
+title = "jobsthatmatter"
 theme = "universal"
 
 languageCode = "en-us"
