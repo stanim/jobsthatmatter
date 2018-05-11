@@ -26,13 +26,13 @@ paginate = 10
 [[menu.main]]
     name = "Blog"
     url  = "/blog/"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
-    name = "FAQ"
+    name = "Vacatures"
     identifier = "faq"
     url  = "/faq/"
-    weight = 3
+    weight = 2
 
 [[menu.main]]
     name = "Contact"
@@ -75,7 +75,7 @@ paginate = 10
     googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "green"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -92,8 +92,8 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "your@email.com"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>JobsthatMatter will offer recruitment services like permanent recruitment and hiring out of professionals. Fields of expertise are IT and Sales Recruitment and Executive Recruitment.</p>"
+    copyright = "Copyright (c) 2015 - 2016, JobsThatMatter; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -117,7 +117,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Bel ons op 06-294 36 929 of neem met ons contact op via tjansencym@hotmail.com.</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
@@ -151,11 +151,11 @@ paginate = 10
 
 [params.see_more]
     enable = true
-    icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    icon = "fa fa-eye"
+    title = "Is het gras aan de overkant groener?"
+    subtitle = "Dit was slechts het topje van de ijsberg."
     link_url = "#"
-    link_text = "Check other homepages"
+    link_text = "Bekijk de andere vacatures"
 
 [params.clients]
     enable = true
@@ -167,5 +167,5 @@ paginate = 10
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    title = "Van onze blog"
+    subtitle = "Jobsthatmatter offers recruitment service but with a focus on one sector; durability sector. All jobs have one thing in common; they contribute to a better world. Who cares about working at an oil company that pollutes our planet or a bank that invests in weapon manufacturors. If you care about the future of your planet and you want to make sure that your jobs makes a difference for the better than Jobsthatmatter will help you find that job."
